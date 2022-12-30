@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+header{
+    background-color: #efefef;
+}
+
+main{
+    background-color: rgb(247, 180, 180);
+    margin: 2px;
+    padding: 2px;
+}
+
+.header{
+    text-align: center;
+    position: relative;
+    left: 25%;
+    justify-items: center;
+    display: flex;
+    margin: 1.5rem;
+    padding: .5rem;
+    gap: 2rem;
+}
+
+.header h2{
+    position: relative;
+    top: 7px;
+    /*font-family: 'Tillana', cursiva;*/
+    font-family:'Roboto', sans-serif;
+}
+
+.header h1{
+    font-family:'Roboto', sans-serif;
+}
+
+.inicio{
+    display: flex;
+    position: relative;
+    left: 30%;
+}
+
+.frase1{
+    font-size: 16pt;
+}
+
+
+.container{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: 10px;
+    justify-items:center;
+    align-items:center;  
+}
+
+.div2{
+    list-style: none;
+    margin-top: 2em;
+    margin-block-end: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    justify-items:center;
+    align-items:center;  
+}
+
+#item{
+    background-color: #efefef;
+}
+
+
+/*width="250px" height="230px"*/
+
+span{
+    color: blue;
+}
+
+
+/***     Aqui é a parte do Footer e dos ícones  ***/
+
+.footer{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #a79f9f;
+    background: 100%;
+    
+}
+.icones{
+    margin-left: 15px;
+}
+
+i{
+    font-size: 24px;
+    color: rgb(36, 19, 19);
+}
+
+i:hover{
+    color: red;
+}
+
+/*** Objetivos   ***/
+.nav{
+    text-align: center;
+    width: 300px;
+    margin-left: 10%;
+}
+
+nav:hover{
+    background-color: whitesmoke;
+}
+ul{
+    font-size: 16pt;
+    font-weight: 600;
+    color: red;
+}
+li{
+
+    width: 300px;
+    list-style: none;
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    background-color: rgb(100, 99, 99);
+    color: #fff;
+}
+
+ul:hover li{
+    display: block;
+}
+
+@media (max-width: 600px){
+
+    html{
+        font-size:60%;
+    }
+
+    .header{
+        margin-right: 220px;
+        display: block;
+    }
+
+    .inicio{
+        padding: 2rem;
+        display: block;
+    }
+
+    .frase1{
+        display: none;
+        margin-right: 230px;
+        font-size: 12pt;
+    }
+
+    .nav{
+        position: absolute;
+        right: 50%;
+    }
+
+    .li{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+    }
+
+    
+
+    /*
+    div, header .header, .nav{
+        width: 100%;
+        position: relative;
+        justify-content: right;
+    }
+
+    .header{
+        display: block;
+        justify-items: left;
+
+    }
+
+    .inicio{
+        display: block;
+        justify-items: left;
+    }
+
+    .frase1{
+        font-size: 14pt;
+    }
+
+    .nav{
+        font-size: 14pt;
+        width: 250px;
+        float: left;
+    
+    }
+    h1{
+        font-size: 16pt;
+    }
+    h2{
+        font-size: 14pt;
+    }
+
+    li{
+        width: 100%;
+    }
+*/
+
+
+
+}
+
+
+
